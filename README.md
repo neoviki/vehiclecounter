@@ -1,8 +1,6 @@
-# AI Traffic Monitor – Intelligent Traffic Monitoring with Object Detection and Counting
+# VehicleCounter – CNN-Based Object Detection for Moving Traffic Streams
 
-**AI Traffic Monitor** is a Convolutional Neural Network (CNN) based computer vision application that detects and counts traffic-related objects (such as cars, trucks, buses, and pedestrians) in images, videos, or live camera feeds, and displays the results in a tabular format.
-
-It uses the YOLOv8 object detection model - a pretrained deep CNN by Ultralytics [1] - to analyze each frame and generate structured traffic object counts and visual overlays.
+**VehicleCounter** is a computer vision application that detects and counts vehicles within moving traffic streams. It accepts images, video files, and live camera feeds. The core detection engine utilizes Ultralytics' YOLOv8 [1], a highly optimized, pre-trained CNN. As it processes each frame, the system classifies objects (cars, trucks, buses, etc.), aggregates the counts into a tabular data format, and renders bounding-box visual overlays for real-time verification.
 
 ---
 
