@@ -31,8 +31,8 @@
 ## Installation
 
 ```bash
-git clone https://github.com/neoviki/ai.vision.traffic.monitor.app
-cd ai.traffic.monitor
+git clone https://github.com/neoviki/vehiclecounter
+cd vehiclecounter
 chmod +x installer.sh;./installer.sh
 ```
 
